@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body{
+   background-color: rgb(84, 132, 91); 
+   /* background-image: url('background1.jpg');  */
+
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+nav{
+    font-family:'Courier New', Courier, monospace;  
+    
+} 
+
+nav ul{ 
+
+    display: flex; 
+    align-items: center; 
+    list-style-type: none;
+    height : 68px;  
+    font-size: 18px;
+    background-color: black;
+    color: white; 
+}
+
+nav ul li{
+    padding : 0 12px; 
+} 
+
+.brand img{   
+      width : 40px;  
+      padding: 2px 8px;
+} 
+
+.brand{
+    display: flex; 
+    align-items: center;
+    font-weight: bolder; 
+    font-size: 20px; 
+    padding : 18px; 
+}
+
+.container h1{
+    font-family: 'PT Serif', serif;
+}  
+
+.container{
+    
+    min-height: 72vh; 
+    background-color: black; 
+    color: white; 
+    font-family: 'Varela Round', sans-serif; 
+    display: flex;
+    margin : 20px auto; 
+    width : 70%;  
+    border-radius: 15px; 
+    padding: 30px;
+    /* background-image: url('background1.jpg');  */
+
+} 
+
+.bottom{
+    
+    position : sticky;  
+    height :120px;
+    background-color: black; 
+    bottom: 0; 
+    display:flex;  
+    justify-content: center; 
+    align-items: center; 
+    color : white; 
+    flex-direction: column;
+    
+}
+
+
+.icons{
+    margin-top: 14px;
+}
+
+
+#myProgressBar{
+    width : 80vw; 
+    text-align: center; 
+    cursor: pointer;
+} 
+
+.songItem{
+
+   height : 50px; 
+   display : flex; 
+   background-color: white; 
+   width : 80%; 
+   color : black; 
+   margin: 12px 0px; 
+   justify-content: space-between;
+   align-items: center; 
+   border-radius: 10px; 
+   /* padding-right: 10px; */
+
+}
+
+.songItem img{
+
+    width: 40px;
+    margin: 0px 20px; 
+    border-radius: 10px;
+    
+ } 
+
+ .timeStamp{
+    padding : 15px; 
+ } 
+
+ .timeStamp i{
+    /* cursor: pointer;  */
+    margin : 0 23px; 
+ } 
+
+ .songItemContainer{
+
+    margin-top: 75px; 
+    /* background-color: aquamarine; */
+
+ }  
+
+
+ .songInfo{
+
+    position: absolute;
+    left : 10vw;   
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+ }
+
+ .songInfo img{
+
+    opacity : 0; 
+    transition:opactiy 0.4s ease-in; 
+    width : 30px;  
+    height : 20px
+ } 
+ 
+#masterPlay{
+    cursor: pointer;
+}
+
+#previous{
+    cursor: pointer;
+} 
+
+#next{
+    cursor: pointer;
+}
